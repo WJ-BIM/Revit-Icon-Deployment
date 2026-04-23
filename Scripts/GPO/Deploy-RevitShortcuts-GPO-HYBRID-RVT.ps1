@@ -7,7 +7,7 @@
 #
 # Features:
 #   - Dynamic Revit detection (2014-current+5)
-#   - GitHub icon repository (WJ-BIM/revit-deployment)
+#   - GitHub icon repository (WJ-BIM/Revit-Icon-Deployment)
 #   - Updates both Start Menu and Desktop
 #   - Taskbar management
 #   - Anti-reversion protections
@@ -33,10 +33,10 @@ $ErrorActionPreference = 'SilentlyContinue'
 # CONFIGURATION
 # ============================================================================
 
-$GitHubRepo           = "WJ-BIM/revit-deployment"
+$GitHubRepo           = "WJ-BIM/Revit-Icon-Deployment"
 $GitHubBranch         = "main"
 $IconRoot             = "C:\ProgramData\RevitIcons"
-$IconBaseUrl          = "https://raw.githubusercontent.com/$GitHubRepo/$GitHubBranch/ICONS"
+$IconBaseUrl          = "https://raw.githubusercontent.com/$GitHubRepo/$GitHubBranch/Icons"
 $StartMenuRoot        = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Autodesk"
 $LogPath              = "C:\ProgramData\RevitDeploymentLog.txt"
 $CurrentYear          = (Get-Date).Year

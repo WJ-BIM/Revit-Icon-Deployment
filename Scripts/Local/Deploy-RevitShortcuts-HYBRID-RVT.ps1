@@ -4,7 +4,7 @@
 #
 # Features:
 #   - Dynamic Revit version detection (no hardcoding)
-#   - Icons from GitHub repository (WJ-BIM/revit-deployment)
+#   - Icons from GitHub repository (WJ-BIM/Revit-Icon-Deployment)
 #   - Updates Start Menu + Desktop shortcuts
 #   - Taskbar pin/unpin management
 #   - Anti-reversion protections (cache clear, registry harden, read-only)
@@ -34,10 +34,10 @@ $ErrorActionPreference = 'SilentlyContinue'
 # CONFIGURATION
 # ============================================================================
 
-$GitHubRepo           = "WJ-BIM/revit-deployment"
+$GitHubRepo           = "WJ-BIM/Revit-Icon-Deployment"
 $GitHubBranch         = "main"
 $IconRoot             = "C:\ProgramData\RevitIcons"
-$IconBaseUrl          = "https://raw.githubusercontent.com/$GitHubRepo/$GitHubBranch/ICONS"
+$IconBaseUrl          = "https://raw.githubusercontent.com/$GitHubRepo/$GitHubBranch/Icons"
 $StartMenuRoot        = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Autodesk"
 $DesktopPath          = [Environment]::GetFolderPath("Desktop")
 $LogPath              = "C:\ProgramData\RevitDeploymentLog.txt"
@@ -315,7 +315,7 @@ Icon location:    $IconRoot
 Icon naming:      RVTYY.ico (RVT23.ico, RVT24.ico, etc.)
 Log file:         $LogPath
 
-GitHub Repository: https://github.com/WJ-BIM/revit-deployment
+GitHub Repository: https://github.com/WJ-BIM/Revit-Icon-Deployment
 
 References:
   - https://kam-jam.com/docs/Software%20Deployment/Revit%20Icons
